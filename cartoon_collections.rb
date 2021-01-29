@@ -3,3 +3,9 @@ def roll_call_dwarves(names)
      puts "#{index + 1}. #{name}"
    end
 end
+
+
+def summon_captain_planet(calls)
+  calls.collect do |call|
+    call.capitalize.split("!")
+end
