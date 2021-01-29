@@ -16,7 +16,7 @@ end
 def find_the_cheese(array)
   array.find do |food|
     if food(cheese) == true
-      return 
+      return
     else
-      
+
 end
